@@ -15,3 +15,7 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+# lasergrbl-plus: los archivos de referencia de G-code se comparan byte por byte.
+LaserGRBL.Tests/GCode/Golden/** -text
+LaserGRBL.Tests/GCode/Inputs/** -text
